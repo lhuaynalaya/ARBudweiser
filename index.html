@@ -9,9 +9,9 @@
 
 
   <body style=’margin : 0px; overflow: hidden;’>
-  <a-scene embedded arjs=’sourceType: webcam;’>
+  <a-scene embedded artoolkit='sourceType: webcam;' renderer='logarithmicDepthBuffer: true;'>
       <a-marker preset='hiro'>
-        
+
         <a-entity obj-model=”obj: url(https://osktgui.github.io/ARBudweiser/images/botella-bud.obj); mtl: url(https://osktgui.github.io/ARBudweiser/images/botella-bud.mtl)”>
         </a-entity>
 
